@@ -29,7 +29,7 @@ async def on_message(message):
         await commands[command](message, args)
     else:
         # The command is not known, so respond with an error message.
-        await message.reply("Hi! I'm Eva. Sorry, I don't know that command. Type help to view all commands.")
+        await message.reply("Hi! I'm Eva. Sorry, I don't know that command. Type help to view all commands.")  # noqa: E501
 
 # A function that responds to the "ping" command.
 async def hello(message, args):
@@ -41,9 +41,9 @@ async def ping(message, args):
 
 # A function that responds to the "help" command.
 async def help(message, args):
-    await message.reply("Here is a list of commands:")
-    for command in commands:
-        await message.reply(f"* {command}")
+    command_list = "\n".join(commands.keys())
+    reply_message = f"Here is a list of commands:\n{command_list}"
+    await message.reply(reply_message)
 
 # A function that responds to the "roll" command.
 async def roll(message, args):
