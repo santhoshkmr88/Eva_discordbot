@@ -60,7 +60,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [![Discord sass_labs][discord-shield]][discord-url]
 
 Contributors:
-1. [Santhosh S](linkedin-url-santhosh)
+1. [Santhosh S] - [![Linkedin][linkedin-shield]][linkedin-url-santhosh]
 
 Project Link: [Eva_discordbot](project-url)
 
@@ -72,5 +72,6 @@ Project Link: [Eva_discordbot](project-url)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [discord-shield]: https://img.shields.io/badge/sass_labs-blue?style=for-the-badge&logo=discord&colorB=555
 [discord-url]: https://discord.gg/wzpMJEZTpG?style=sass_labs
+[linkedin-shield]: https://img.shields.io/badge/Linkedin-blue?style=for-the-badge&logo=linkedin&colorB=444
 [linkedin-url-santhosh]: https://www.linkedin.com/in/santhoshkmrs/
 [project-url]:https://github.com/santhoshkmr88/Eva_discordbot
