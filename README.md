@@ -61,8 +61,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Contributors:
 1. [Santhosh S](linkedin-url-santhosh)
-2. [Bala]()
-3. [Bhushan]()
 
 Project Link: [Eva_discordbot](project-url)
 
